@@ -1,4 +1,4 @@
-package com.teameeats.eeats.ui.theme
+package com.teameeats.feature.theme
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color

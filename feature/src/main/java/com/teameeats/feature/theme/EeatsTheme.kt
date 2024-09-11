@@ -1,6 +1,5 @@
-package com.teameeats.eeats.ui.theme
+package com.teameeats.feature.theme
 
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 
 @Composable
