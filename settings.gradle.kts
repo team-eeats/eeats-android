@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Eeats"
 include(":app")
+include(":feature")
