@@ -1,4 +1,4 @@
-package com.teameeats.feature.theme
+package com.teameeats.eeats.theme
 
 import androidx.compose.runtime.Composable
 

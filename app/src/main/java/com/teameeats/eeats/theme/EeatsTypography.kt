@@ -1,4 +1,4 @@
-package com.teameeats.feature.theme
+package com.teameeats.eeats.theme
 
 import com.teameeats.eeats.R
 import androidx.compose.runtime.Immutable
