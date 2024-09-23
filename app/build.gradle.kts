@@ -59,10 +59,10 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     /// navigation
     implementation("androidx.navigation:navigation-compose:2.7.6")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.0")
-    implementation("androidx.navigation:navigation-ui-ktx:2.8.0")
-    implementation("androidx.navigation:navigation-dynamic-features-fragment:2.8.0")
-    androidTestImplementation("androidx.navigation:navigation-testing:2.8.0")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+    implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.6")
+    androidTestImplementation("androidx.navigation:navigation-testing:2.7.6")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
