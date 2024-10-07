@@ -18,7 +18,11 @@ import com.teameeats.eeats.utils.navigation.EeatsRoutes
 
 @Composable
 fun LoginScreen(navController: NavController) {
-    Column(modifier = Modifier.fillMaxSize().background(EeatsColor.white).padding(horizontal = 24.dp)) {
+    Column(
+        modifier = Modifier.fillMaxSize()
+        .background(color = EeatsColor.white)
+        .padding(horizontal = 24.dp)
+    ) {
         Spacer(modifier = Modifier.height(60.dp))
         EeatsText(
             text = "로그인하고\neeats를 사용해보세요!",
