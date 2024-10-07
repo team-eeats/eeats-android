@@ -63,7 +63,7 @@ fun LoginScreen(navController: NavController) {
         )
         Spacer(modifier = Modifier.weight(1f))
         EeatsButton(
-            modifier = Modifier.fillMaxWidth().height(43.dp),
+            modifier = Modifier.fillMaxWidth(),
             color = EeatsColor.main500,
             enabled = true,
             keyboardInteractionEnabled = true,
@@ -72,6 +72,7 @@ fun LoginScreen(navController: NavController) {
                     popUpTo(EeatsRoutes.Login.route)
                 }
             },
+            contentPadding = Modifier.padding(vertical = 12.dp),
             content = {
                 Text(
                     text = "로그인하기",

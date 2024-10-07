@@ -1,7 +1,6 @@
 package com.teameeats.eeats.theme.component.button
 
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
@@ -17,6 +16,7 @@ fun EeatsButton(
     color: Color,
     enabled: Boolean,
     radius: Dp? = 8.dp,
+    contentPadding: Modifier,
     keyboardInteractionEnabled: Boolean,
     onClick: () -> Unit,
     content: @Composable () -> Unit
@@ -24,12 +24,13 @@ fun EeatsButton(
     var pressed by remember { mutableStateOf(false) }
 
     Surface(
-        modifier = modifier.then(if (keyboardInteractionEnabled) Modifier.imePadding() else Modifier),
+        modifier = modifier,
         shape = RoundedCornerShape(radius!!),
         color = color,
         onClick = onClick,
     ) {
         Box(
+            modifier = contentPadding,
             contentAlignment = Alignment.Center // 가운데 정렬
         ) {
             content()
