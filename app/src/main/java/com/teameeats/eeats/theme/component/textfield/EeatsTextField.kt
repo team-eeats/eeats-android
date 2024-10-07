@@ -51,7 +51,6 @@ fun EeatsTextField(
     } else {
         PasswordVisualTransformation() to R.drawable.ic_eye_off
     }
-
     val text = remember { mutableStateOf(initialText ?: value()) }
 
     Column(
