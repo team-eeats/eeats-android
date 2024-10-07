@@ -85,7 +85,8 @@ fun EeatsTextField(
                     keyboardType = keyboardType,
                     imeAction = imeAction,
                 ),
-                cursorBrush = SolidColor(EeatsColor.main200), )
+                cursorBrush = SolidColor(EeatsColor.main200),
+            )
             { innerTextField ->
                 Row(
                     modifier = Modifier.fillMaxWidth(),
